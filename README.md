@@ -1,3 +1,5 @@
-# Repository setup required :wave:
-    
-Please visit the website URL :point_right: for this repository to complete the setup of this repository and configure access controls.
+# App Service WebJobs QuickStart
+Write your first WebJob for App Service. This is a simple script that outputs the current date and time.
+
+Instructions
+These samples are to be used with the WebJobs Quickstart for App Service.
