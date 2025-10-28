@@ -1,9 +1,12 @@
 console.log("Current system date and time:");
 const now = new Date();
-const formatted = now.getFullYear() + "-" + 
-    String(now.getMonth() + 1).padStart(2, '0') + "-" + 
-    String(now.getDate()).padStart(2, '0') + " " + 
-    String(now.getHours()).padStart(2, '0') + ":" + 
-    String(now.getMinutes()).padStart(2, '0') + ":" + 
-    String(now.getSeconds()).padStart(2, '0');
+function pad(num) {
+    return (num < 10 ? '0' : '') + num;
+}
+const formatted = now.getFullYear() + "-" +
+    pad(now.getMonth() + 1) + "-" +
+    pad(now.getDate()) + " " +
+    pad(now.getHours()) + ":" +
+    pad(now.getMinutes()) + ":" +
+    pad(now.getSeconds());
 console.log(formatted);
