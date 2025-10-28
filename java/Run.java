@@ -1,5 +1,5 @@
 // Java program to print current system date and time
-// To compile: javac Run.java
+// To compile: javac -source 8 -target 8 Run.java (ensure Java 8 compatibility with Windows Code flavor of App Service)
 // To create a jar: jar cfe run.jar Run Run.class
 
 import java.time.LocalDateTime;
