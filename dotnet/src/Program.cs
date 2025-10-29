@@ -3,7 +3,8 @@
 // To compile and run:
 //   dotnet run
 // To publish as a single file:
-//   dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true
+//   dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true (Windows)
+//   dotnet publish -c Release -r linux-x64 --self-contained true /p:PublishSingleFile=true (Linux)
 // The output will be in bin/Release/net*/win-x64/publish/
 
 using System;
