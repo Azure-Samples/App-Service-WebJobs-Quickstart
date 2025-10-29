@@ -1,3 +1,3 @@
 #!/bin/bash
 
-dotnet run.dll 
+./run
