@@ -8,10 +8,10 @@
 //
 // To publish for Linux:
 //   dotnet build -c Release --self-contained
-// The output DLL will be in bin/Debug/net8.0/run.dll. 
-// You need to package it with a Bash script to run it with "dotnet run.dll".
+// The output DLL will be in bin/Release/net8.0/linux-x64/publish/.
+// You need to package it with a Bash script to run it with "./run".
 // To package in a ZIP file for Linux deployment:
-//  zip -j dotnet-lin.zip run.sh bin/Release/net8.0/linux-x64/run
+//  zip -j dotnet-lin.zip run.sh bin/Release/net8.0/linux-x64/publish/*
 using System;
 
 class Program
