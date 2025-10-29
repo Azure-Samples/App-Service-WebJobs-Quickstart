@@ -11,7 +11,7 @@
 // The output DLL will be in bin/Debug/net8.0/run.dll. 
 // You need to package it with a Bash script to run it with "dotnet run.dll".
 // To package in a ZIP file for Linux deployment:
-//  zip -j dotnet-lin.zip run.sh bin/Release/net8.0/linux-x64/*
+//  zip -j dotnet-lin.zip run.sh bin/Release/net8.0/linux-x64/run
 using System;
 
 class Program
